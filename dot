@@ -141,7 +141,7 @@ stow_dotfiles() {
     warn "~/.config is folded into the repo — unfolding"
     stow -D -d "$DOTFILES_DIR" -t "$HOME" home || return 1
   fi
-  mkdir -p "${HOME}/.config" "${HOME}/.config/herdr" || return 1
+  mkdir -p "${HOME}/.config" "${HOME}/.config/herdr" "${HOME}/.agents/skills" || return 1
 
   stow -R -d "$DOTFILES_DIR" -t "$HOME" home || return 1
   ok "Dotfiles stowed"
