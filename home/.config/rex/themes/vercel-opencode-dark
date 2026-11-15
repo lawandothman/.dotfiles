@@ -1,0 +1,29 @@
+# Rex variant of ~/.config/ghostty/themes/vercel-opencode-dark.
+# Import with: rex -C CLIENT do client.theme.import path=<this file>
+#
+# Rex builds its sidebar, panes and raised surfaces by stepping up from the
+# background, and none of its built-in dark themes use pure black. This lifts
+# the background to #0a0a0a (Vercel's Geist background-100, and the background
+# of Rex's Static Noir), and lifts ANSI black above it the same way.
+palette = 0=#1a1a1a
+palette = 1=#e5484d
+palette = 2=#46a758
+palette = 3=#ffb224
+palette = 4=#0070f3
+palette = 5=#8e4ec6
+palette = 6=#12a594
+palette = 7=#a1a1a1
+palette = 8=#878787
+palette = 9=#ff6166
+palette = 10=#63c46d
+palette = 11=#f2a700
+palette = 12=#52a8ff
+palette = 13=#bf7af0
+palette = 14=#0ac7ac
+palette = 15=#ededed
+background = #0a0a0a
+foreground = #ededed
+cursor-color = #B62EB2
+cursor-text = #0a0a0a
+selection-background = #292929
+selection-foreground = #ededed

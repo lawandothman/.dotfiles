@@ -25,3 +25,7 @@ home/.config/nvim/lazy-lock.json
 # Herdr plugins are installed by `herdr plugin install`, not tracked here
 home/.config/herdr/plugins.json
 home/.config/herdr/plugins/
+
+# Rex rewrites these at runtime and they embed the home path
+home/.config/rex/ssh_config
+home/.config/rex/terminfo-hosts
