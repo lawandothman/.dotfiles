@@ -25,6 +25,3 @@ home/.config/nvim/lazy-lock.json
 # Herdr plugins are installed by `herdr plugin install`, not tracked here
 home/.config/herdr/plugins.json
 home/.config/herdr/plugins/
-
-# Skills kept out of the public repo
-home/.agents/skills/weekly-updates-workflow/
